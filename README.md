@@ -30,6 +30,32 @@ Predict stock price valuations on a daily, weekly and monthly basis. Recommend B
 
 Evaluate on the basis of capital returns. Use Bollinger Bands to measure your systems effectiveness.
 
+## Installation Instructions
+
+go to anaconda prompt and type in following commands:
+1- to install jupyter book so it can use virtual environment
+```
+conda install -c conda-forge notebook
+conda install -c conda-forge nb_conda_kernels
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge nb_conda_kernels
+```
+
+2- to create virtual environment and install requirements
+```
+conda create --name value_investor pip ipykernel
+source activate value_investor
+git clone --recursive https://github.com/Usama-zia/valueinvestor.git
+cd valueinvestor
+pip install -r requirements.txt
+```
+3- now use following commands to first deactivate enviornment and open jupyter notebook
+```
+conda deactivate
+jupyter notebook
+```
+to run jupyter notebook make sure you are in conda base enviornment.
+Dataset is also included in the repository.
 Project Organization
 ------------
 
