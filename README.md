@@ -45,8 +45,8 @@ conda install -c conda-forge nb_conda_kernels
 ```
 conda create --name value_investor pip ipykernel
 source activate value_investor
-git clone --recursive https://github.com/Usama-zia/valueinvestor.git
-cd valueinvestor
+git clone --recursive https://github.com/Usama-zia/value_investor.git
+cd value_investor
 pip install -r requirements.txt
 ```
 3- now use following commands to first deactivate enviornment and open jupyter notebook
