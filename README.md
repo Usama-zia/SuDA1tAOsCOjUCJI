@@ -6,16 +6,13 @@ Stock price forcasting
 ### Background:
 
 
-We are a portfolio investment company and we make investments in the emerging markets around the world. Our company profits by investing in profitable companies, buying, holding and selling company stocks based on value investing principles.
+A portfolio investment company needs to invest in the emerging markets around the world. This company profits by investing in profitable companies, buying, holding and selling company stocks based on value investing principles. Establish a robust intelligent system to aid in value investing efforts using stock market data. Investment decisions are based on intrinsic value of companies, not on the basis of daily market volatility. Profit realization strategy typically involves weekly, monthly and quarterly performance of stocks that are bought or sold.
 
 
-Our goal is to establish a robust intelligent system to aid our value investing efforts using stock market data. We make investment decisions and based on intrinsic value of companies and do not trade on the basis of daily market volatility. Our profit realization strategy typically involves weekly, monthly and quarterly performance of stocks we buy or hold.
+### Dataset Description:
 
 
-### Data Description:
-
-
-You are given a set of portfolio companies trading data from emerging markets including 2020 Q1-Q2-Q3-Q4 2021 Q1 stock prices. Each company stock is provided in different sheets. Each market's operating days varies based on the country of the company and the market the stocks are exchanged. Use only 2020 data and predict with 2021 Q1 data.
+Dataset consistis of  portfolio companie's trading data from emerging markets including 2020 Q1-Q2-Q3-Q4 2021 Q1 stock prices. Each company stock is provided in different sheets. Each market's operating days varies based on the country of the company and the market the stocks are exchanged. Using only 2020 data, predict for 2021 Q1 data.
 
 
 
